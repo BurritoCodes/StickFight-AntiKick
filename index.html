@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>StickFight-AntiKick</title>
+<style>
+body{background:#0d1117;color:#c9d1d9;font-family:Arial,sans-serif;max-width:740px;margin:38px auto;padding:0 20px 55px;line-height:1.55}
+a{color:#58a6ff;text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3{color:#f0f6fc;border-bottom:1px solid #21262d;padding-bottom:5px}
+code,kbd{background:#161b22;padding:2px 5px;border-radius:3px;font-family:Consolas,monospace;font-size:.9em}
+.dl{display:inline-block;margin:8px 12px 8px 0;padding:8px 14px;background:#238636;color:#fff;border-radius:5px;font-weight:bold}
+.dl:hover{background:#2ea043;text-decoration:none}
+</style>
+</head>
+<body>
+
+<h1 style="margin-top:0">StickFight-AntiKick (v1.0.0)</h1>
+BepInEx 5 anti-kick mod for <i>Stick Fight: The Game</i>.
+<div>
+<a class="dl" href="AntiKick.dll" download>Download AntiKick.dll</a>
+<a href="SECURITY_AUDIT.md">Security Audit (.md)</a> &middot; <a href="verify-safety.ps1" download>verify-safety.ps1</a>
+</div>
+
+<h2>What it does</h2>
+Defends against <b>7 different modes of kicks</b> and forced disconnects.<br><br>
+Notifies you in chat when triggered, doesn't conflict with Monky's QOL Mod.
+
+<h3>How do I know it's on?</h3>
+When the mod is active, there is a small green dot with a black outline in the bottom-left corner of your screen. You can press <kbd>Alt</kbd> + <kbd>Z</kbd> anytime (when not typing in chat) to hide or show the circle.<br>
+<img src="indicator-example.jpg" alt="indicator" style="max-width:100%;border:1px solid #30363d;border-radius:4px;margin-top:8px">
+
+<div style="margin-top:24px">
+<b>Install</b>
+<hr style="border:0;border-top:1px solid #21262d">
+<ol style="padding-left:22px">
+<li>Install BepInEx 5.x (x64) for <i>Stick Fight: The Game</i>.</li>
+<li>Download <code>AntiKick.dll</code> and drop it into <code>BepInEx\plugins\AntiKick.dll</code>.</li>
+<li>Launch the game.</li>
+</ol>
+</div>
+
+<h2>Obfuscation &amp; Safety Audit</h2>
+<code>AntiKick.dll</code> is obfuscated and distributed as a compiled binary only (source code stays private to stop people from easily reverse engineering it).<br><br>
+To verify the DLL is safe without source code, check <a href="SECURITY_AUDIT.md">SECURITY_AUDIT.md</a> or run <a href="verify-safety.ps1" download>verify-safety.ps1</a> (7/7 safety checks passed, 0 violations).<br><br>
+<small><code>AntiKick.dll</code> &bull; 43,520 bytes &bull; SHA-256: <code>3445BC9466FD3625E70A672E61B39C86C3F5F6A929843B83101DF718CF39B929</code></small>
+
+<br><br>
+<b>Contact:</b> <code>semenburrito</code> on Discord
+
+</body>
+</html>
